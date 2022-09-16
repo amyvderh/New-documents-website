@@ -1,15 +1,13 @@
  body {
 
-     background: url(img/pinkstreet.jpg) no-repeat center center fixed;
+     background: url(img/cherry\ blossoms\ with\ building\ ft\ mount\ fuji.jpg) no-repeat center center fixed;
      webkit-background-size: cover;
      moz-background-size: cover;
      o-background-size: cover;
      background-size: cover;
  }
 
- h1,
- h2,
- h3 {
+ h1,h2,h3 {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      color: seashell;
      text-align: center;
@@ -20,7 +18,7 @@
      display: block;
      margin-left: 20%;
      margin-right: 20%;
-     font-size: 23px;
+     font-size: larger;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
@@ -34,13 +32,22 @@
      width: 400px;
  }
 
+ .otherkindofpic {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 300px;
+    width: 200px;
+ }
+
  nav {
      font-family: Arial, Helvetica, sans-serif;
  }
 
  header {
      background-color: rgb(24, 42, 124);
-
  }
 
  header::after {
@@ -53,7 +60,7 @@
      width: 100%;
      margin: 0;
      position: fixed;
-     background-color: rgb(24, 42, 124);
+     background-color: rgb(212, 147, 173);
  }
 
  .homenav {
@@ -76,8 +83,7 @@
      padding-top: 25px;
  }
 
- .homenav,
- a {
+ .homenav,a {
      color: white;
      text-decoration: none;
      text-transform: uppercase;
@@ -86,7 +92,6 @@
 
  nav a:hover {
      color: black;
-
  }
 
  nav a::before {
@@ -111,8 +116,6 @@
      width: 40%;
      margin-left: 30%;
      margin-right: 50%;
-   
-
  }
 
  .sidebar {
@@ -143,25 +146,18 @@
      list-style-position: inside;
      color: seashell;
      display: block;
-     margin-left: 0;
-     margin-right: 0;
+     margin-left: -20%;
      font-size: smaller;
  }
 
- .sidebar,
- .wrapper,
- .sidebarul,
- .sidemenuli {
+ .sidebar,.wrapper,.sidebarul,.sidemenuli {
      padding: 15px;
      border-bottom: 1px;
      border-top: 1px;
+     
  }
 
- .sidebar,
- .wrapper,
- .sidebarul,
- .sidemenuli,
- .sidebarA {
+ .sidebar,.wrapper,.sidebarul,.sidemenuli,.sidebarA {
      display: block;
  }
 
@@ -178,16 +174,13 @@
      font-size: larger;
  }
 
- table,
- th,
- td {
+ table,th,td {
      border: 1px solid black;
      width: 100%;
      margin-top: 15%;
  }
 
- th,
- td {
+ th,td {
      color: seashell;
      font-size: larger;
  }
@@ -196,5 +189,15 @@ legend {
     text-align: center;
     color: seashell;
     font-size: 30px;
-
 }
+
+.hzlogo {
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+li {
+    font-size: larger;
+}
+
