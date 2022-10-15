@@ -32,7 +32,7 @@
      width: 400px;
  }
 
- .otherkindofpic {
+ .picforprofile {
     text-align: center;
     display: block;
     margin-left: auto;
@@ -98,7 +98,7 @@
      content: '';
      display: block;
      height: 5px;
-     background-color: seashell;
+     background-color: rgb(213, 104, 27);
 
      position: absolute;
      top: 0;
@@ -112,10 +112,12 @@
  }
 
  div {
-     background-color: rgb(194, 68, 119);
+     background-color: rgb(194, 68, 119,.70); 
      width: 40%;
      margin-left: 30%;
      margin-right: 50%;
+     margin-bottom: -15%;
+     
  }
 
  .sidebar {
@@ -127,19 +129,20 @@
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
- .wrapper {
+ .sidebarwrapper {
      display: flex;
      margin-left: 0;
      margin-right: auto;
      position: relative;
  }
 
- .wrapper,
+ .sidebarwrapper,
  .sidebar {
      position: fixed;
      width: 180px;
      height: 100%;
      background: rgb(194, 68, 119);
+     
  }
 
  .sidebarul {
@@ -150,18 +153,18 @@
      font-size: smaller;
  }
 
- .sidebar,.wrapper,.sidebarul,.sidemenuli {
+ .sidebar,.sidebarwrapper,.sidebarul,.sidemenuli {
      padding: 15px;
      border-bottom: 1px;
      border-top: 1px;
      
  }
 
- .sidebar,.wrapper,.sidebarul,.sidemenuli,.sidebarA {
+ .sidebar,.sidebarwrapper,.sidebarul,.sidemenuli,.sidebarA {
      display: block;
  }
 
- .sidebar,.wrapper,.sidebarul,.sidemenuli, .sidebarA,.ion-icon {
+ .sidebar,.sidebarwrapper,.sidebarul,.sidemenuli, .sidebarA,.ion-icon {
      width: 170px;
  }
 
@@ -170,7 +173,7 @@
      color: seashell;
      display: block;
      margin-left: 30%;
-     margin-right: 30%;
+     margin-right: 25%;
      font-size: larger;
  }
 
@@ -194,10 +197,42 @@ legend {
 .hzlogo {
     float: right;
     width: 20%;
-    height: 20%;
+    height: 30%;
 }
+   
 
 li {
     font-size: larger;
+}
+
+.progressionbarcontainer {
+    background-color: seashell;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.completionbar {
+        background-color: rgb(212, 147, 173);
+        color: white;
+        text-align: auto;
+        font-size: 20px;
+        margin-left: 0%;
+        border-radius: 2px;
+    
+}
+
+.stick {
+    width: 0%;
+    margin-left: 0%;
+}
+
+ ion-icon {
+    padding-right: 7%;
+    margin-left: -11%;
+}
+
+.backToBlogButton {
+   margin-left: 40%;
 }
 
